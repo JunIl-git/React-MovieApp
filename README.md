@@ -1,16 +1,16 @@
 # React Movie App "Junflix"
 
-used : [
-    "create-react-app",
-    "Styled Components",
-    "React Router",
-    "Axios",
-    "Typescript",
-    "AJAX",
-    "The MovieDB API",
-    "React Hooks",
-    "React Context",
-]
+used : [<br>
+    <br>"create-react-app",
+    <br>"Styled Components",
+    <br>"React Router",
+    <br>"Axios",
+    <br>"Typescript",
+    <br>"AJAX",
+    <br>"The MovieDB API",
+    <br>"React Hooks",
+    <br>"React Context",
+<br>]
 
 
 1. PROJECT SETUP
