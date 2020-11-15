@@ -1,6 +1,6 @@
 # React Movie App "Junflix"
 
-used : [<br>
+used : [
     <br>"create-react-app",
     <br>"Styled Components",
     <br>"React Router",
@@ -13,5 +13,11 @@ used : [<br>
 <br>]
 
 
-1. PROJECT SETUP
-    .env파일을 만들고 NODE_PATH=src 입력
+1. PROJECT SETUP : .env파일을 만들고 NODE_PATH=src 입력
+
+## Screens
+
+- [ ] Home
+- [ ] TV SHows
+- [ ] Search
+- [ ] Detail
