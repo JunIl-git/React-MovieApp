@@ -1,19 +1,25 @@
 # React Movie App "Junflix"
 
-used : [
-    <br>"create-react-app",
-    <br>"Styled Components",
-    <br>"React Router",
-    <br>"Axios",
-    <br>"Typescript",
-    <br>"AJAX",
-    <br>"The MovieDB API",
-    <br>"React Hooks",
-    <br>"React Context",
-<br>]
+    Used : [
+        "create-react-app",
+        "Styled Components",
+        "React Router",
+        "Axios",
+        "Typescript",
+        "AJAX",
+        "The MovieDB API",
+        "React Hooks",
+        "React Context",
+    ]
 
 
-1. PROJECT SETUP : .env파일을 만들고 NODE_PATH=src 입력
+1. PROJECT SETUP : "절대경로"를 사용하기<br>
+
+    A. npm install cross-env<br>
+    B. .env파일 생성 후 NODE_PATH=src 코드 작성<br>
+    C. jsconfig.json 파일 생성 후 코드 작성<br>
+    D. package.json 파일에서 코드 작성
+
 
 ## Screens
 
