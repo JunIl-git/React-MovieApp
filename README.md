@@ -13,13 +13,18 @@
     ]
 
 
-1. PROJECT SETUP : "절대경로"를 사용하기<br>
+1. PROJECT SETUP : "절대경로" 사용하기<br>
 
     A. npm install cross-env<br>
     B. .env파일 생성 후 NODE_PATH=src 코드 작성<br>
     C. jsconfig.json 파일 생성 후 코드 작성<br>
-    D. package.json 파일에서 코드 작성
+    D. package.json 파일에서 코드 작성<br><br>
 
+2. Used Router : Router를 이용한 경로이동
+
+    A. npm install react-router-dom<br>
+    B. import<br>
+    C. Use<br><br>
 
 ## Screens
 
