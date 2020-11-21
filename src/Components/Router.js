@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom';
 import Home from 'Routes/Home';
 import Search from 'Routes/Search';
 import TV from 'Routes/TV';
@@ -7,9 +7,12 @@ import TV from 'Routes/TV';
 
 export default ()=>(
     <Router>
-        <Route path="/" exact component={Home}/>
-        {/* <Route path="/Detail" exact component={Detail}/> */}
-        <Route path="/search" exact component={Search}/>
-        <Route path="/tv" exact component={TV}/>
+        <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/tv" exact component={TV}/>
+            <Route path="/tv/popular" render={()=>{return <h1>popular</h1>}}></Route>
+            <Route path="/search" exact component={Search}/>
+            <Redirect from="*" to="/"/>
+        </Switch>
     </Router>
 );
