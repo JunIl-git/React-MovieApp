@@ -3,10 +3,13 @@ import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom
 import Home from 'Routes/Home';
 import Search from 'Routes/Search';
 import TV from 'Routes/TV';
+import Header from 'Components/Header';
 // import Detail from 'Routes/Detail';
 
 export default ()=>(
     <Router>
+        <>
+        <Header/>
         <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/tv" exact component={TV}/>
@@ -14,5 +17,6 @@ export default ()=>(
             <Route path="/search" exact component={Search}/>
             <Redirect from="*" to="/"/>
         </Switch>
+        </>
     </Router>
 );
