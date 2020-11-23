@@ -26,6 +26,11 @@
     B. import<br>
     C. Use<br><br>
 
+3. styled-component :css in JS<br>
+    A. npm install styled-component<br>
+    B. import<br>
+    C. Use
+
 ## Screens
 
 - [ ] Home
