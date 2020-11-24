@@ -31,6 +31,8 @@
     B. import<br>
     C. Use
 
+   style-reset : reset CSS<br>
+
 ## Screens
 
 - [ ] Home
