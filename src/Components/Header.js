@@ -1,6 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 
 const Header = Styled.header`
     color:white;
@@ -11,7 +11,7 @@ const Header = Styled.header`
     height: 50px;
     display:flex;
     align-items:center;
-    padding: 0px 10px;
+
     background-color:rgba(20,20,20,0.8);
     box-shadow : 0px 1px 5px 2px rgba(0,0,0,0.8);
 `
@@ -24,8 +24,10 @@ const SLink = Styled(Link)`
     `;
 
 const Item =Styled.li`
-    width: 50px;
+    width: 70px;
     text-align:center;
+    border-bottom : 3px solid ${props => (props.current ? "#3498db" : "transparent")};
+    transition : all .3s;
     `;
 
 const List = Styled.ul`
@@ -35,17 +37,17 @@ const List = Styled.ul`
         
     } */
 `;
-
-export default () => (<Header>
+//withRouter로 감싸서 props의 location값을 받아온다. *Router의 기능
+export default withRouter(({location : {pathname}}) => (<Header>
     <List>
-        <Item>
+        <Item current={pathname === "/"}>
             <SLink to="/">Movies</SLink>
         </Item>
-        <Item>
+        <Item current={pathname === "/tv"}>
             <SLink to="/tv">TV</SLink>
         </Item>
-        <Item>
+        <Item current={pathname === "/search"}>
             <SLink to="/search">Search</SLink>
         </Item>
     </List>
-</Header>)
+</Header>))
