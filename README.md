@@ -10,6 +10,7 @@
         "The MovieDB API",
         "React Hooks",
         "React Context",
+        "get API",
     ]
 
 1. PROJECT SETUP : "절대경로" 사용하기<br>
