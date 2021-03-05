@@ -1,17 +1,19 @@
 # React Movie App "Junflix"
 
-    Used : [
-        "create-react-app",
-        "Styled Components",
-        "React Router",
-        "Axios",
-        "Typescript",
-        "AJAX",
-        "The MovieDB API",
-        "React Hooks",
-        "React Context",
-        "get API",
-    ]
+```js
+Used: [
+  "create-react-app",
+  "Styled Components",
+  "React Router",
+  "Axios",
+  "Typescript",
+  "AJAX",
+  "The MovieDB API",
+  "React Hooks",
+  "React Context",
+  "get API",
+];
+```
 
 1. PROJECT SETUP : "절대경로" 사용하기<br>
 
