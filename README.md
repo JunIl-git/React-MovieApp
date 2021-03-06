@@ -1,5 +1,6 @@
 # React Movie App "Junflix"
-API > TDMB
+
+API : TDMB
 
 ```js
 Used: [
