@@ -3,7 +3,7 @@
 API : TDMB
 
 ```js
-Used: [
+Used = [
   "create-react-app",
   "Styled Components",
   "React Router",
@@ -23,3 +23,10 @@ Used: [
    B. .env파일 생성 후 NODE_PATH=src 코드 작성<br>
    C. jsconfig.json 파일 생성 후 코드 작성<br>
    D. package.json 파일에서 코드 작성<br><br>
+
+## Screens
+
+- [ ] Home
+- [ ] TV Show
+- [ ] Search
+- [ ] Detail
